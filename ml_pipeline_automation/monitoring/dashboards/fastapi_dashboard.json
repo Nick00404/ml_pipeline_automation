@@ -1,0 +1,6 @@
+{
+  "dashboard": {
+    "title": "FastAPI Metrics",
+    "panels": []
+  }
+}

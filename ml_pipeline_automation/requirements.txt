@@ -1,0 +1,13 @@
+fastai
+torch
+scikit-learn
+mlflow
+dvc
+flask
+uvicorn
+pandas
+numpy
+fastapi
+prometheus_client
+pytest
+requests

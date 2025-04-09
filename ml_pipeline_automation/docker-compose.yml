@@ -1,0 +1,23 @@
+version: '3.8'
+services:
+  model-server:
+    build: .
+    ports:
+      - "5000:5000"
+
+  db:
+    image: postgres:latest
+    environment:
+      POSTGRES_PASSWORD: example
+
+  prometheus:
+    image: prom/prometheus
+    volumes:
+      - ./monitoring/prometheus.yml:/etc/prometheus/prometheus.yml
+    ports:
+      - "9090:9090"
+
+  grafana:
+    image: grafana/grafana
+    ports:
+      - "3000:3000"
