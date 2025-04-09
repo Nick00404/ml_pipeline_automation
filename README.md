@@ -1,6 +1,5 @@
 # ML Pipeline Automation
 
-![CI](https://github.com/your-username/ml-pipeline-automation/actions/workflows/deploy.yml/badge.svg)
 ![Python](https://img.shields.io/badge/python-3.10-blue.svg)
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
 
