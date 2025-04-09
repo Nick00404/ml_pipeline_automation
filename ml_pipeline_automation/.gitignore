@@ -1,7 +1,14 @@
-# Python related ignores
+# Python bytecode
 __pycache__/
-*.pyc
-/data/
-/models/
-/logs/
+*.py[cod]
+*.egg-info/
 .env
+
+# Logs and Data
+logs/
+data/raw/
+data/processed/
+models/
+
+# Misc
+*.zip

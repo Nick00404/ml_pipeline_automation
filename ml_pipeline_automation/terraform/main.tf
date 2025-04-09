@@ -1,11 +1,9 @@
+# Terraform main configuration
 provider "aws" {
-  region = var.aws_region
+  region = "us-east-1"
 }
 
-resource "aws_instance" "mlops_instance" {
-  ami           = "ami-0abcdef1234567890"
+resource "aws_instance" "ml_instance" {
+  ami           = "ami-0c55b159cbfafe1f0"
   instance_type = "t2.micro"
-  tags = {
-    Name = "MLOpsInstance"
-  }
 }

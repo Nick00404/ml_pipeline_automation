@@ -1,13 +1,13 @@
-fastai
-torch
+uvicorn
 scikit-learn
+pyyaml
+pytest
+torch
 mlflow
 dvc
 flask
-uvicorn
 pandas
 numpy
 fastapi
 prometheus_client
-pytest
 requests

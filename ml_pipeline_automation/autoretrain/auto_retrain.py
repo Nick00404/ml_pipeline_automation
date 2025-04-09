@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+# Auto-retrain logic placeholder
 import time
 import subprocess
 

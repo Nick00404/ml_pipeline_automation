@@ -1,3 +1,3 @@
 #!/bin/bash
-# This script could be scheduled with cron
+# Schedule auto-retraining (to be configured with cron or another scheduler)
 python autoretrain/auto_retrain.py
